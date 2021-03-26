@@ -75,9 +75,9 @@ header a{
 .aboutcsgo {
     align-items: center;
     margin: 5px;
-    padding: 5px;
-    width: 638px;
-    height: 250px;
+    padding: 20px;
+    width: 608px;
+    /* height: 250px; */
     background-color:rgb(241, 239, 239);
 }
 .gg {
@@ -93,6 +93,7 @@ header a{
     height: 2857px;
     padding: 5px;
     margin: 5px;
+    position: relative;
     /* align-items: left; */
 }
 .pages a{
@@ -151,7 +152,39 @@ header a{
     text-size-adjust: 25px;
  }
  .aboutus a{
+    position: absolute;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     color: black;
+    left: 10px;
  }
+.aboutus p{
+    color: black;
+    font-size: 25px;
+    margin: 0px;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h1Advises{
+    width: 1120px;
+    height: 123px;
+    background-color:  rgb(241, 239, 239);
+    padding: 5px;
+    font-size: 80px;
+    text-align: center;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.creaters{
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    width: 638px;
+    height: 250px;
+    background-color:rgb(241, 239, 239);
+}
+.crearers a{
+    font-size: 10px;
+    color: black;
+    
+}
